@@ -1,0 +1,50 @@
+.navbar {
+    text-decoration: none;
+}
+.clients{
+    background: #3f3d56;
+    color: beige;
+}
+.says{
+    background:
+    #6c63ff ;
+    border-radius: 20px;
+}
+
+body{
+    font-family: 'Montserrat+Alternates',sans-serif ;
+}
+
+h1,h2,h3{
+    font-weight: 600;
+}
+
+
+.navbar{
+    background:#3f3d56!important;
+    
+}
+.navbar-brand,.nav-link{
+    color:  white  ;
+    font-weight: 600;
+}
+@media(max-width :768px){
+    .nav .nav-item {
+        display: block;
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+        
+    }
+    .contact img {
+      display: none;
+    }
+    .home{
+        padding: 20px;
+    }
+    .clients{
+      padding: 30px;
+    }
+ 
+  
+}
